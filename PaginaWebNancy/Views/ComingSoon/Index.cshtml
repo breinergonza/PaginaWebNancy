@@ -1,0 +1,169 @@
+﻿
+@{
+    ViewBag.Title = "Nancy Marittza Oliveros Dávila";
+    Layout = "~/Views/Shared/_LayoutSoon.cshtml";
+}
+
+<div id="lawyer" class="sven-container" data-splash-image="assets/images/lawyer/scene-1.jpg" data-enable-sound="assets/music/Not_For_Nothing.mp3" data-sound-loop="false">
+    <!-- fall-hide-lt -->
+    <div id="scene-1" class="sven-slide" data-trans="swirl-left" data-anim="fall-hide-lt" data-freeze-time="2" data-alignment="left-center" data-mobile-alignment="center-center" data-scene-image="assets/images/lawyer/scene-1.jpg">
+        <div class="content-container">
+            <h1 class="lt-main" data-in-ease="Elastic.easeOut">Hola, Soy Nancy Oliveros Dávila</h1>
+        </div>
+    </div>
+    <!-- random-reveal-lt -->
+    <div id="scene-2" class="sven-slide" data-trans="swirl-left" data-anim="random-reveal-lt" data-alignment="left-center" data-mobile-alignment="center-center" data-scene-image="assets/images/lawyer/scene-2.jpg">
+        <div class="content-container">
+            <h1 class="lt-main">Ingeniera de Sistemas y Computación</h1>
+        </div>
+    </div>
+    <!-- dominos-reveal-lt -->
+    <div id="scene-3" class="sven-slide" data-trans="swirl-left" data-anim="dominos-reveal-lt" data-alignment="left-center" data-mobile-alignment="center-center" data-scene-image="assets/images/lawyer/scene-3.jpg">
+        <div class="content-container">
+            <h1 class="lt-main" data-in-pattern="sequential">Especialista en Gerencia de Proyectos de Ingenieria con Certificación PMP®</h1>
+        </div>
+    </div>
+    <!-- particles-reveal-lt -->
+    <div id="scene-4" class="sven-slide" data-freeze-time="2.5" data-anim="particles-reveal-lt" data-scene-image="assets/images/lawyer/scene-4.jpg">
+        <div class="content-container">
+            <h1 class="lt-main" data-in-ease="Elastic.easeOut">Te invito a ver mi perfil en linkedin</h1>
+            <a style="display: inline-block" href="https://co.linkedin.com/in/nancy-oliveros-dávila-15255637" target="_blank" class="linkedin-button"><i class="fa fa-linkedin"></i></a>
+        </div>
+    </div>
+    <!-- glitch-one-lt -->
+    <div id="scene-5" class="sven-slide" data-trans="swirl-left" data-scene-dur="3.5" data-anim="glitch-one-lt" data-scene-image="assets/images/lawyer/scene-5.jpg">
+        <div class="content-container">
+            <h1 class="lt-main">Próximamente</h1>
+        </div>
+    </div>
+    <!-- blur-reveal-lt -->
+    <div id="scene-6" class="sven-slide" data-anim="blur-reveal-lt" data-alignment="left-center" data-mobile-alignment="center-center">
+        <div class="content-container">
+            <h1 class="lt-main" data-in-pattern="sequential" data-stagger-time="0.08">Un sitio web para que usted pueda estar en contacto conmigo y mi trabajo</h1>
+        </div>
+    </div>
+    <!-- appear-lt -->
+    <div id="scene-7" class="sven-slide" data-anim="appear-lt" data-show-particles="true" data-show-footer="true">
+        <div class="content-container">
+            <h1 class="sven-timer"></h1>
+        </div>
+        <div class="bt-container" data-x-start="0%" data-font-max="360">
+            <h1 class="abs-center big-days-left"></h1>
+        </div>
+    </div>
+</div>
+<!-- =================================================================
+Particles Instance
+================================================================== -->
+<div id="particles-js"></div>
+<!-- =================================================================
+Countdown Timer Instance
+================================================================== -->
+<h1 id="sven-countdown"></h1>
+<!-- =================================================================
+Sven Header (Teaser Controls And/Or Logo) - Absolutely positioned
+================================================================== -->
+<div class="sven-header">
+    <div class="logo-container pull-left">
+        <a href="#"><img src="assets/images/sven-lawyer-logo.png" height="17" style="margin-top: 8px;" /></a>
+    </div>
+    <div class="controls-nav pull-right">
+        <!-- Playback speed control -->
+        <a class="speed-label" title="Speed Up/Down"><span>1.0x</span></a>
+        <!-- Sound Controls -->
+        <a class="sound_button" title="Sound On/Off"><i class="fa fa-volume-up"></i></a>
+        <!-- Play / Pause / Restart Controls -->
+        <a class="movie-button" title="Teaser Play/Pause"><i class="fa fa-play"></i></a>
+        <!-- Skip to last scene control -->
+        <a class="skip-button" title="Skip to last scene"><span>omitir</span><i class="fa fa-angle-double-right"></i></a>
+    </div>
+</div>
+<!-- =================================================================
+Sven Footer  - Absolutely positioned
+(Hashtag / Social Icons / Subscribe Buttons / Days Left)
+================================================================== -->
+<div class="sven-footer">
+    <!-- Days Left / Subscribe / Hashtag-->
+    <div class="sven-info pull-right">
+        <a id="pop-subscribe" class="btn btn-ghost" data-toggle="modal" data-target="#subscribe-page">SUBSCRIBETE</a>
+        <!-- <h1 class="days-left"></h1> -->
+        <a class="hashtag" target="_blank" href="#">#noliveros</a>
+    </div>
+    <!-- Social Icons-->
+    <div class="sven-info pull-left">
+        <ul class="social-icons">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+    </div>
+</div>
+<!-- =================================================================
+    Splash page content (If autostart is set to false)
+================================================================== -->
+<div class="splash-page abs-fs">
+    <div class="abs-center">
+        <a id="play-video" class="video-play-button play-button">
+            <span>Ir</span>
+        </a>
+    </div>
+</div>
+<!-- =================================================================
+Preloader Instance
+================================================================== -->
+<div class="loader-container">
+    <div class="abs-center">
+        <!-- <div class="sk-double-bounce">
+            <div class="sk-child sk-double-bounce1"></div>
+            <div class="sk-child sk-double-bounce2"></div>
+        </div> -->
+        <!-- <div class="sk-spinner sk-spinner-pulse"></div> -->
+        <div class="sk-three-bounce">
+            <div class="sk-child sk-bounce1"></div>
+            <div class="sk-child sk-bounce2"></div>
+            <div class="sk-child sk-bounce3"></div>
+        </div>
+    </div>
+</div>
+<!-- =================================================================
+Subscribe Modal
+================================================================== -->
+<div id="subscribe-page" class="sven-modal modal" role="dialog">
+    <div class="modal-dialog">
+        <!-- Start of Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="row row-md-table">
+                    <!-- Left Image section-->
+                    <div class="col-md-5 card-image bg-cover">
+                    </div>
+                    <!-- Subscribe / Contact Section-->
+                    <div class="col-md-7 form-container">
+                        <div class="content">
+                            <h3 class="text-center">Suscríbase ahora</h3>
+                            <p>Y obtenga acceso a un boletin con información que le podría interesar...</p>
+                            <!-- SUCCESS OR ERROR MESSAGES -->
+                            <p class="subscribe-label sven-message"></p>
+                            <form id="subscription" class="sven-form" method="POST">
+                                <div class="col-xs-12" style="padding: 0">
+                                    <div class="form-group">
+                                        <input type="email" id="userEmail" class="form form-control" placeholder="Su Correo..." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email...'" name="email" required="">
+                                    </div>
+                                </div>
+                                <div class="button-holder text-center">
+                                    <button type="submit" id="submit-form" class="btn btn-color">ser notificado</button>
+                                </div>
+                            </form>
+                            <button type="button" class="close close-form" data-dismiss="modal">&times;</button>
+                        </div>
+                    </div>
+                    <!-- End of Subscribe / Contact Section-->
+                </div>
+            </div>
+        </div>
+        <!-- End of Modal content-->
+    </div>
+</div>
+<!-- =================================================================
+Compiled JS plugins
+================================================================== -->
