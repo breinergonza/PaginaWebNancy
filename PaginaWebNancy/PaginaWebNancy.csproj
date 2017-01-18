@@ -140,11 +140,16 @@
     <Content Include="assets\images\icons\touch-icon-ipad.png" />
     <Content Include="assets\images\icons\touch-icon-iphone-retina.png" />
     <Content Include="assets\images\icons\touch-icon-iphone.png" />
+    <Content Include="assets\images\lawyer\FB_IMG_1484752158777.jpg" />
     <Content Include="assets\images\lawyer\scene-1.jpg" />
+    <Content Include="assets\images\lawyer\scene-1_old.jpg" />
     <Content Include="assets\images\lawyer\scene-2.jpg" />
+    <Content Include="assets\images\lawyer\scene-2_old.jpg" />
     <Content Include="assets\images\lawyer\scene-3.jpg" />
+    <Content Include="assets\images\lawyer\scene-3_old.jpg" />
     <Content Include="assets\images\lawyer\scene-4.jpg" />
     <Content Include="assets\images\lawyer\scene-5.jpg" />
+    <Content Include="assets\images\lawyer\scene-5_old.jpg" />
     <Content Include="assets\images\subscribe-image.jpg" />
     <Content Include="assets\images\sven-lawyer-logo.png" />
     <Content Include="assets\js\bootstrap.min.js" />
